@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 new_page_extension: md
 auto_deploy: true
-=======
-new_page_extension: html
-auto_deploy: false
->>>>>>> d04d3d0c6b99e8cf3488d3cd6a3d3cee0b131831
 admin_path: 
 webhook_url: 
 collections: 
@@ -13,8 +8,4 @@ upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
-<<<<<<< HEAD
 file_template: ":year:/:month:/:day:/:filename:"
-=======
-file_template: ":filename:"
->>>>>>> d04d3d0c6b99e8cf3488d3cd6a3d3cee0b131831
