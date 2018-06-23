@@ -74,6 +74,7 @@ page_sections:
     article</a> and create your own Blocks.</p></li></ol>
 - template: signup-bar
   block: cta-bar
+  email_recipient: dev@tallgrass.media
 - template: simple-footer
   block: footer-1
   content: Hello world! ❤︎
