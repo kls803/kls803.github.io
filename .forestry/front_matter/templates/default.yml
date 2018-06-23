@@ -8,4 +8,4 @@ fields:
   hidden: false
   default: default
 pages:
-- _posts/this-is-a-post.md
+- _posts/2018-06-23-this-is-a-post.md
