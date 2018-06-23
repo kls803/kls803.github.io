@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![uBuild Blocks](uploads/2018/06/21/theme.png)
 
 # uBuild Jekyll Theme
@@ -54,5 +53,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
->>>>>>> d04d3d0c6b99e8cf3488d3cd6a3d3cee0b131831
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.	
