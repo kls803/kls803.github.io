@@ -75,6 +75,7 @@ page_sections:
 - template: signup-bar
   block: cta-bar
   email_recipient: dev@tallgrass.media
+  content: Get our newsletter.
 - template: simple-footer
   block: footer-1
   content: Hello world! ❤︎
