@@ -1,0 +1,86 @@
+---
+label: Towers Pointing Upward
+hide_body: 
+is_partial: 
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: subtitle
+  label: Subtitle
+  type: text
+  hidden: false
+  default: ''
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: ''
+- name: image
+  label: Image
+  type: file
+  hidden: false
+  default: ''
+- name: image_banner
+  label: Image banner
+  type: file
+  hidden: false
+  default: ''
+- name: isbn
+  label: Isbn
+  type: text
+  hidden: false
+  default: ''
+- name: pubdate
+  label: Pubdate
+  type: datetime
+  hidden: false
+  default: ''
+- name: role
+  label: Role
+  type: text
+  hidden: false
+  default: ''
+- name: tech
+  label: Tech
+  type: text
+  hidden: false
+  default: ''
+- name: client
+  label: Client
+  type: text
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: gallery
+  label: Gallery
+  type: field_group_list
+  fields:
+  - name: banner
+    label: Banner
+    type: file
+    hidden: false
+    default: ''
+  - name: alt
+    label: Alt
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
