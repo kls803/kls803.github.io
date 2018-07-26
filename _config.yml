@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -105,3 +106,35 @@ collections:
   books:
     output: true
     permalink: /books/:path/
+=======
+title: uBuild Design Blocks
+author: Forestry.io
+email: support@forestry.io
+  ubuild-jekyll is a Jekyll theme desgined to work with Forestry's Blocks feature. 
+  that will empower content editors to construct their own webpages.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # your site's origin, e.g. https://forestry.io
+
+# Build settings
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default" # this ensures all content renders with layouts/default.html
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-menus
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+>>>>>>> 939ef78c28b72c8d370e8a0020ecc701cc7b294f
