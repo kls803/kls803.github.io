@@ -12,4 +12,4 @@ Over the years, we've done many custom website projects for small businesses, no
 
 Contact us to chat about how we can help you with your communication needs.
 
-<span style="font-size:80%;">Flint Hills <a href="https://www.flickr.com/photos/usfwsmidwest/19130964193" target="_blank">image by Joanna Gilkeson/USFWS</a> (<a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>)</span>
+<span style="font-size:80%;">Flint Hills <a href="https://www.flickr.com/photos/usfwsmidwest/19130964193" target="_blank">image by Joanna Gilkeson/USFWS</a> (<a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC BY 2.0</a>)</span>
