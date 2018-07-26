@@ -7,6 +7,12 @@ collections:
 - path: ''
   label: Pages
   create: all
+- path: _books
+  label: Books
+  create: all
+- path: _projects
+  label: Projects
+  create: all
 - path: _posts
   label: Posts
   create: all
