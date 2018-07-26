@@ -87,6 +87,7 @@ gems:
   - jekyll-feed
   - jekyll-textile-converter
   - jekyll-seo-tag
+  - jekyll-menus
 
 exclude:
   - Gemfile
