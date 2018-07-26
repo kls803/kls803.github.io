@@ -1,0 +1,26 @@
+<nav class="flex-block flex-block--padding">
+  <div class="flex-block flex-block--row flex-block--wrapper flex-block--flex-space-b">
+    <a href="{{ site.baseurl }}/" class="">
+      <span>
+        <span class="bracket">&lbrack;</span>
+        <h2 class="logotype">
+          Tallgrass <strong>Media</strong>
+        </h2>
+        <span class="bracket">&rbrack;</span>
+      </span>
+    </a>
+    <ul>
+        <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+        <li><a href="#">Work</a></li>
+    </ul>  
+  </div>
+</nav>
+{% if page.url == "/" %}
+<header class="hero">
+  <div class="center-content">
+    <h1>Define Your Brand</h1>
+    <h3>What is your brand saying?</h3>
+    <a href="#" class="button">Some Action Here</a>
+  </div>
+</header>
+{% endif %}

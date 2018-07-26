@@ -1,0 +1,51 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+// .img--blur {
+//   filter: blur(2px);
+// }
+.label {
+  position: absolute;
+  @include flexbox();
+  @include align-items(center);
+  @include justify-content(center);
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba($secondary-brand-color, 0.8);
+  @include flex-direction(column);
+  overflow: hidden;
+}
+.label__title {
+  color: $link--light;
+  margin: 0;
+
+}
+.label__subtitle {
+  color: $text-color-light;
+  margin: 0;  
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+// Check to see if device has hover capability
+@media(hover: hover) {
+    // Label animation stuff
+    .label__title {transform: translateY(-10rem); transition: transform $animation;}
+    .label__subtitle {transform: translateY(10rem); transition: transform $animation;}
+    .label{
+      opacity: 0;
+      transition: opacity $animation;      
+      &:hover{
+        transition: opacity $animation;
+        opacity: 1;
+      }
+      // animate the hoverstate for the title and subtitle
+      &:hover .label__title {
+        transition: transform $animation;
+        transform: translateY(0rem);
+      }
+      &:hover .label__subtitle {
+        transition: transform $animation;
+        transform: translateY(0rem);
+      }
+    }
+  }

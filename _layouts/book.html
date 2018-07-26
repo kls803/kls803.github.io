@@ -1,0 +1,120 @@
+---
+layout: default
+---
+
+<section id="next-section" class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+          <h2>{{ page.title }}{% if page.subtitle %}: <br/><small>{{ page.subtitle }}</small>{% endif %}</h2>
+          {% comment %}{% if page.subtitle %}<p class="lead">{{ page.subtitle }}</p>{% endif %}{% endcomment %}
+          {% if page.author %}<p class="lead"><strong>Author:</strong> {{ page.author }}</p>{% endif %} 
+        </div>
+      </div>
+	  <div class="row">
+		  <div class="col-md-3 col-md-push-9">
+			<h2>Description</h2>
+			<p>{{ page.description }}</p>
+			<p class="mb20">
+			  <strong class="probootstrap-black-color">Role:</strong> {{ page.role }}
+			</p>
+			{% if page.client != null %}
+			<p class="mb20">
+			  <strong class="probootstrap-black-color">Client:</strong> {{ page.client }}
+			</p>
+			{% endif %}
+			{% if page.tags.size > 0 %}
+			 <p class="mb20">
+			  <strong class="probootstrap-black-color">Tag{% if page.tags.size > 1 %}s{% endif %}:</strong>
+			  {{ page.tags | sort | join: ", " }}</p>
+			{% endif %}
+			{% if page.isbn != null %}
+			<p class="mb20">
+			  <strong class="probootstrap-black-color">ISBN:</strong> {{ page.isbn }}
+			</p>
+			{% endif %}
+			<p class="mb20">
+			  <strong class="probootstrap-black-color">Published Date:</strong> {{ page.pubdate | date: '%B %d, %Y' }}
+			</p> 
+			{% if page.sample != null %}
+			<p><a href="{{page.sample}}" target="_blank" role="button" class="btn btn-ghost">Sample chapter</a></p>
+			{% endif %}
+			{% if page.amazon_link != null %}
+			<p><a href="{{page.amazon_link}}" target="_blank" role="button" class="btn btn-primary">Buy from Amazon</a></p>
+			{% endif %}
+		  </div>
+		  <div class="col-md-9 col-md-pull-3">
+			{% if page.gallery.size > 1 %}
+			<div class="swiper-container mb20">
+				<div class="swiper-wrapper ">
+				{% for slide in page.gallery %}
+				  <div class="swiper-slide"><img src="{{ site.image_path }}/{{ slide.banner }}" alt="{{ slide.alt }}" class="img-responsive"></div>
+				{% endfor %}			
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+			{% elsif page.gallery.size == 1 %}
+				{% for slide in page.gallery %}
+				<p><a href="{{ site.image_path }}/{{ slide.banner }}" class="image-popup"><img src="{{ site.image_path }}/{{ slide.banner }}" alt="{{ slide.alt }}" class="img-responsive"></a></p>
+				{% endfor %}		
+			{% else %}
+				<p><a href="{{ site.image_path }}/{{ page.image_banner }}" class="image-popup"><img src="{{ site.image_path }}/{{ page.image_banner }}" alt="{{ page.title }}" class="img-responsive"></a></p>
+			{% endif %}
+		</div>
+    </div>
+    <div class="row">
+    	<article>
+    	{{ content }}
+    	</article>
+    </div>
+  </div>    
+</section>
+
+{% comment %}
+<img src="{{ site.image_path }}/{{ page.image_banner }}" class="img--centered">
+<section class="flex-block flex-block--wrapper flex-block--padding">
+	<article class="flex-block">
+			<h1 class="h1--project-label">
+				{% if page.external_url != null %}
+					<a href="{{page.external_url}}" class="link--light" target="_blank">{{ page.title }}</a>
+				{% else %}
+					{{ page.title }}
+				{% endif %}
+			</h1>
+
+
+		{% if page.author != null %}
+		<h6 class="h6--role">
+			<strong>Author</strong> - {{ page.author }} </br>		
+		</h6>
+		{% endif %}
+		
+		<h3> Project Description </h3>
+
+		<p> {{ page.description }} </p>
+
+		<h6 class="h6--role">
+			<strong>Role</strong> - {{ page.role }} </br>
+			<strong>Technology</strong> - {{ page.tech }} </br>
+			{% if page.client != null %}
+			<strong>Client</strong> - {{ page.client }} </br>
+			{% endif %}
+			<strong>Published Date</strong> - {{ page.pubdate | date: '%B %d, %Y' }} </br>
+			{% if page.isbn != null %}
+			<strong>ISBN</strong> - {{ page.isbn }} </br>
+			{% endif %}
+			{% if page.external_url != null %}
+			<a href="{{page.external_url}}" target="_blank">Link</a><br />
+			{% endif %}
+			{% if page.amazon_link != null %}
+			<a href="{{page.amazon_link}}" target="_blank"><img src="{{ site.image_path }}/buttons/buy-from-amazon3.gif" title="Buy from Amazon" alt="Buy from Amazon"></a><br />
+			{% endif %}
+		</h6>
+
+		{{ content }}
+
+	</article>
+	<a href="#" class="a--scroll-top">Top</a>
+</section>
+  {% endcomment %}

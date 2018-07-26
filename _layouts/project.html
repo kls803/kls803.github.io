@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section id="next-section" class="probootstrap-section">
+    <div class="container">
+      <div class="col-md-3 col-md-push-9">
+        <h2>Description</h2>
+        <p>{{ page.description }}</p>
+        <p class="mb20">
+          <strong class="probootstrap-black-color">Role:</strong> {{ page.role }}
+        </p>
+        {% if page.tech != null %}
+		<p class="mb20">
+          <strong class="probootstrap-black-color">Technology:</strong> {{ page.tech }}
+        </p>
+        {% endif %}
+		{% if page.external_url != null %}
+		<p><a href="{{page.external_url}}" target="_blank" role="button" class="btn btn-primary">Link</a></p>
+        {% endif %}
+      </div>
+      <div class="col-md-9 col-md-pull-3">
+        <p><a href="{{ site.image_path }}/{{ page.image_banner }}" class="image-popup"><img src="{{ site.image_path }}/{{ page.image_banner }}" alt="{{ page.title }}" class="img-responsive"></a></p>
+      </div>
+    <article>
+    	{{ content }}
+    </article>
+  </div>    
+</section>

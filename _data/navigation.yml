@@ -1,0 +1,16 @@
+menuitems:
+
+- title: Home
+  url: /
+
+- title: Books
+  url: /books/
+
+- title: Websites
+  url: /websites/
+
+- title: About
+  url: /about/
+  
+- title: Contact
+  url: /contact/

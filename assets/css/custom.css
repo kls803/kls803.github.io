@@ -1,0 +1,15 @@
+/* Custom css code goes here */
+
+.probootstrap-section {
+  padding: 2em 0 2em 0;
+  position: relative;
+  z-index: 2;
+}
+
+.probootstrap-intro {
+  height: 800px;
+}
+
+.probootstrap-intro.no_hero {
+  height: 90px;
+}

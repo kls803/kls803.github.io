@@ -1,0 +1,107 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Kelly Smith
+email: dev@tallgrass.media
+description: > # this means to ignore newlines until "baseurl:"
+  Kelly Smith is a South Carolina based Graphic Designer and Web Developer.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kls803.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+author: Kelly Smith
+
+# More SEO stuff
+webmaster_verifications:
+  # google: UA-61711072-1
+
+#social links
+twitter: https://twitter.com/tallgrass
+github:  https://github.com/kls803
+# codepen: https://codepen.io/DarthOstrich
+# medium: https://medium.com/@jarednutt27
+linkedin: https://www.linkedin.com/in/klsmith803//
+
+#skills list
+skills:
+  - name: html5
+    image: html5.png
+  - name: css
+    image: css3.png
+  - name: sass
+    image: sass.png
+  - name: javascript
+    image: javascript.png
+  - name: jquery
+    image: jquery.png
+  - name: nodejs
+    image: nodejs.png
+  - name: php
+    image: php.png
+  - name: mysql
+    image: mysql.png
+  - name: mongo
+    image: mongo.png
+
+#frameworks
+frameworks:
+  - name: wordpress
+    image: wordpress.png
+  - name: react-native
+    image: react-native.png
+  - name: shopify
+    image: shopify.png
+  - name: npm
+    image: npm.png
+  - name: github
+    image: github.png
+  - name: gulp
+    image: gulp.png
+  - name: webpack
+    image: webpack.svg
+
+#tools
+tools:
+  - name: sketch
+    image: sketch.png
+  - name: adobe-xd
+    image: adobe-xd.png
+
+
+# File structure settings
+image_path:         /images
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-textile-converter
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+permalink: pretty
+
+sass:
+  sass_dir:         _sass
+  style:            :compressed
+
+# Collection definitions and settings
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  books:
+    output: true
+    permalink: /books/:path/

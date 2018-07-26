@@ -1,0 +1,112 @@
+---
+layout: main
+---
+<section class="flex-block flex-block--wrapper flex-block--row">
+  <article class="flex-block flex-block--full">
+    <h1 class="headline--underscore">Book Projects</h1>
+  </article>
+  {% comment %} Loop through all the projects {% endcomment %}
+  {% for book in site.books %}
+    <article class="flex-block flex-block--grid">
+      <a href="{{ site.baseurl }}{{ book.url }}">
+      <div class="label">
+        <h2 class="label__title">{{ book.title }}</h2>
+        <h6 class="label__subtitle">{{ book.author }}</h6>
+      </div>
+      <img class="img-full img--blur " src="{{ site.image_path }}/{{ book.image }}" alt="">
+    </a>
+  </article>
+{% endfor %}
+</section>
+
+{% comment %}
+<section class="flex-block flex-block--wrapper flex-block--row">
+  <article class="flex-block flex-block--full">
+    <h1 class="headline--underscore">Latest Projects</h1>
+  </article>
+  {% comment %} Loop through all the projects {% endcomment %}
+  {% for project in site.projects %}
+    <article class="flex-block flex-block--grid">
+      <a href="{{ site.baseurl }}{{ project.url }}">
+      <div class="label">
+        <h2 class="label__title">{{ project.title }}</h2>
+        <h6 class="label__subtitle">{{ project.subtitle }}</h6>
+      </div>
+      <img class="img-full img--blur " src="{{ site.image_path }}/{{ project.image }}" alt="">
+    </a>
+  </article>
+{% endfor %}
+</section>
+{% endcomment %}
+
+<section class="flex-block flex-block--wrapper">
+  <article class="flex-block flex-block--row flex-block--flex-end">
+    <h1 class="headline--underscore flex-block--full">Skills</h1>
+    <div class="flex-block flex-block--centered flex-block--grid">
+      <h2>Web Development</h2>
+      <svg data-name="terminal-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 117.5" class="icon">
+          <title>portfolio-logo-set</title>
+          <path d="M29.42,44.15V46.9L17.26,54.48l-1.44-2,11.3-7-11.3-6.94,1.31-2Z" style="fill:#231f20"/>
+          <path d="M30.92,52h16v2.37h-16Z" style="fill:#231f20"/>
+          <rect x="2" y="2" width="134" height="113.5" rx="10" ry="10" class="icon__stroke"/>
+          <line x1="1.79" y1="25.17" x2="136.21" y2="25.17" class="icon__stroke icon__stroke--inner"/>
+      </svg>
+    </div>
+    <aside class="flex-block--grid flex-block--padding">
+      <ul class="skills-list flex-block--grid">
+        <h3 class="flex-block--full">Languages</h3>
+        {% for skill in site.skills %}
+          <li class="skills-list-icon flex-block--grid__item"> <img src="{{ site.image_path }}/icons/{{ skill.image }}" alt="{{ skill.name }}" class="icon icon--skills"></li>
+        {% endfor %}
+      </ul>
+    </aside>
+    <aside class="flex-block--grid flex-block--padding">
+      <ul class="skills-list flex-block--grid">
+        <h3 class="flex-block--full">Frameworks/Tools</h3>
+          {% for framework in site.frameworks %}
+            <li class="skills-list-icon"> <img src="{{ site.image_path }}/icons/{{ framework.image }}" alt="{{ framework.name }}" class="icon icon--skills"></li>
+          {% endfor %}
+        </ul>
+      </aside>
+  </article>
+  <article class="flex-block flex-block--row flex-block--flex-end">
+    <div class="flex-block flex-block--grid flex-block--centered">
+      <h2>UI/UX Development</h2>
+      <svg data-name="ui-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 117.5" class="icon">
+          <rect x="2" y="2" width="134" height="113.5" rx="10" ry="10" class="icon__stroke"/>
+          <line x1="2" y1="25.17" x2="136.42" y2="25.17" class="icon__stroke icon__stroke--inner"/>
+          <rect x="8" y="51.46" width="72.25" height="35.63" style="fill:#c2c2c1"/>
+          <rect x="85.25" y="51.46" width="44.75" height="15.33" style="fill:#c2c2c1"/>
+          <rect x="8" y="31.13" width="22.38" height="15.33" style="fill:#c2c2c1"/>
+          <rect x="35.38" y="31.13" width="94.63" height="15.33" style="fill:#c2c2c1"/>
+          <rect x="85.25" y="71.73" width="44.75" height="15.33" style="fill:#c2c2c1"/>
+          <rect x="8" y="92" width="122" height="15.33" style="fill:#c2c2c1"/>
+      </svg>
+    </div>
+    <aside class="flex-block--grid flex-block--padding">
+      <div class="flex-block flex-block--grid">
+          <h3 class="flex-block--full">Tools</h3>
+      </div>
+      <ul class="skills-list">
+        <li class="skills-list-icon"><img src="{{ site.image_path }}/icons/sketch.png" alt="" class="icon icon--skills"></li>
+        <li class="skills-list-icon"><img src="{{ site.image_path }}/icons/adobe-xd.png" alt="" class="icon icon--skills"></li>
+      </ul>
+    </aside>
+    </article>
+</section>
+<section class="flex-block">
+  <h1 class="headline--underscore">About</h1>
+  <aside class="flex-block flex-block--wrapper flex-block--row flex-block--padding">
+    <div class="flex-block flex-block--grid">
+      <blockquote>
+        My passion is strong design.
+      </blockquote>
+    </div>
+    <div class="flex-block flex-block--grid">
+      <p>The years I spent in the Air Force and as a developer have taught me the importance of order and structure. Through this, and my fascination with philosophy, I have grown a passion for <a href="https://uxplanet.org/functional-minimalism-for-web-design-4290722cddbd">functional minimalism</a>. These ideals translate into how I conduct my work. Every project serves a <strong>function</strong>, and every element serves a <strong>purpose</strong>.
+      </p>
+      <p>
+      I am currently working as a freelance web developer, and trying to learn as much about Javascript along the way. When it comes down to it, I just want to build cool things. When I'm not writing code I'm probably playing Overwatch, listening to an audiobook or drinking craft beer...or possibly all three.</p>
+    </div>
+  </aside>
+</section>

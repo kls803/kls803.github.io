@@ -1,0 +1,25 @@
+---
+title: Books
+layout: default
+heroimage: hero/books-colors-835799-pxhere.com.jpg
+---  
+  <section class="probootstrap-section probootstrap-border-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate">
+          <h2>The Books</h1>
+          <p class="lead">Following are some samples of book publishing projects where we have provided editing, layout, cover design, eBook conversion and publishing setup. We primarily do book projects for indie authors, which means that all rights and royalties remain with the copyright holders.</p>
+        </div>
+      </div>
+      <div class="row mb20">
+      
+      {% comment %} Loop through all the books {% endcomment %}
+	  {% for book in site.books %}
+	  
+		<article class="col-md-2 col-sm-4 col-xs-6 mb20 probootstrap-animate">
+          <a href="{{ site.baseurl }}{{ book.url }}"><img src="{{ site.image_path }}/{{ book.image }}" alt="{{ book.title }}" class="img-responsive"></a>
+        </article>
+		{% endfor %}
+      </div><!--end row--> 
+    </div>
+  </section> 
