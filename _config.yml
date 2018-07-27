@@ -83,7 +83,7 @@ image_path:         /images
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
   - jekyll-textile-converter
   - jekyll-seo-tag
