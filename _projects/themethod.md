@@ -7,7 +7,7 @@ image_banner: projects/themethod.jpg
 external_url: https://themethodtraining.com/
 role: Site Planning, Design and Development
 tech: WordPress, Custom plugin, theme customization
-description: The Method is a gym and training studio in Raleigh, North Carolina.
+description: The Method is a personal gym and training studio in Raleigh, North Carolina.
 published: true
 ---
 
