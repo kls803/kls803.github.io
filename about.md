@@ -10,7 +10,7 @@ heroimage: hero/flint-hills-panorama.jpg
 
 Over the years, we've done many custom website projects for small businesses, non-profit organizations, churches, and educational institutions. We also provide full-service graphic design and branding consultation. 
 
-Our <a href="/books/004.time-management/">first book</a> was completed in 2009, and since that time we've been involved in a number of independent book publishing projects. We have experience providing editing, interior and cover design, ebook conversion, ISBN registration, print setup with CreateSpace and Amazon, as well as coordinating audiobook development.
+Our <a href="/books/004.time-management/">first book project</a> was completed in 2009, and since that time we've been involved in a number of independent book publishing projects. We have experience providing editing, interior and cover design, ebook conversion, ISBN registration, print setup with CreateSpace and Amazon, as well as coordinating audiobook development.
 
 Contact us to chat about how we can help you with your communication needs.
 
