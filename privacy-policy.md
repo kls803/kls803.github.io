@@ -17,6 +17,8 @@ gallery: []
 published: false
 
 ---
+# {{ page.title }}
+
 **What information do we collect?**  
   
 We collect information from you when you place an order, subscribe to our newsletter, respond to a survey, submit a contact query or fill out a form.  
