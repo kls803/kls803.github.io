@@ -96,7 +96,7 @@
         </div>
         <div class="col-md-12 text-center">
           <p>
-            <small>&copy; 2018 <a href="https://tallgrassmedia.com/" target="_blank">Tallgrass Media</a>. All Rights Reserved.<br>
+            <small>&copy; {{ "today" | date: "%Y" }} <a href="https://tallgrassmedia.com/" target="_blank">Tallgrass Media</a>. All Rights Reserved. <a href="/privacy-policy/" target="_blank">Privacy Policy</a>.<br />
             <a href="#" class="js-backtotop">Back to top</a>
           </p>
         </div>
@@ -128,3 +128,5 @@
     });
   </script>
   {% endif %}
+  </body>
+</html>
