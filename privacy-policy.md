@@ -14,7 +14,6 @@ client: ''
 tags: []
 description: ''
 gallery: []
-published: false
 
 ---
 # {{ page.title }}
