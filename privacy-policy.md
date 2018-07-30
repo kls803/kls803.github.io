@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-layout: default
+layout: home
 date: 2018-07-30 15:11:49 -0400
 subtitle: ''
 author: ''
