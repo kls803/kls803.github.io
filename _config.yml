@@ -110,4 +110,3 @@ collections:
   printdesign:
     output: true
     permalink: /printdesign/:path/
-
