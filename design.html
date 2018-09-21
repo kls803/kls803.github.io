@@ -1,0 +1,25 @@
+---
+title: Design Projects
+layout: default
+heroimage: hero/books-colors-835799-pxhere.com.jpg
+---  
+   <section class="probootstrap-section probootstrap-border-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 section-heading probootstrap-animate">
+          <h2>Design Projects</h1>
+          <p class="lead">Here are some print design projects.</p>
+        </div>
+      </div>
+      <div class="row mb20">
+      
+      {% comment %} Loop through all the projects {% endcomment %}
+	  {% for project in site.printdesign %}
+	  
+		<article class="col-md-4 col-sm-4 col-xs-6 mb20 probootstrap-animate">
+          <a href="{{ site.baseurl }}{{ project.url }}"><img src="{{ site.image_path }}/{{ project.image }}" alt="{{ project.title }}" class="img-responsive"></a>
+        </article>
+		{% endfor %}
+      </div><!--end row-->
+    </div>
+  </section>
