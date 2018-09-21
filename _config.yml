@@ -107,3 +107,7 @@ collections:
   books:
     output: true
     permalink: /books/:path/
+  printdesign:
+    output: true
+    permalink: /printdesign/:path/
+
