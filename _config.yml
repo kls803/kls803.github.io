@@ -95,9 +95,9 @@ exclude:
   - Gemfile.lock
 permalink: pretty
 
-sass:
-  sass_dir:         _sass
-  style:            :compressed
+#sass:
+#  sass_dir:         _sass
+#  style:            :compressed
 
 # Collection definitions and settings
 collections:
