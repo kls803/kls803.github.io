@@ -8,6 +8,9 @@ menuitems:
 
 - title: Websites
   url: /websites/
+  
+- title: Design
+  url: /design/
 
 - title: About
   url: /about/
