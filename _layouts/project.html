@@ -15,6 +15,11 @@ layout: default
           <strong class="probootstrap-black-color">Technology:</strong> {{ page.tech }}
         </p>
         {% endif %}
+        {% if page.projectdate != null %}
+		<p class="mb20">
+		  <strong class="probootstrap-black-color">Project date:</strong> {{ page.projectdate | date: '%b %Y' }}
+		</p>
+		{% endif %}
 		{% if page.external_url != null %}
 		<p><a href="{{page.external_url}}" target="_blank" role="button" class="btn btn-primary">Link</a></p>
         {% endif %}
