@@ -2,8 +2,8 @@
 layout: project
 title: CIU Homecoming 2018 - Save the Date Postcard
 subtitle: Print design project
-image: printdesign/save-date-postcard-hc18-portfolio-1600x1200.jpg
-image_banner: printdesign/save-date-postcard-hc18-portfolio-800x600.jpg
+image: printdesign/save-date-postcard-hc18-portfolio-800x600.jpg
+image_banner: printdesign/save-date-postcard-hc18-portfolio-1600x1200.jpg
 external_url:
 role: Graphic Design
 tech: Illustrator, Photoshop, InDesign
