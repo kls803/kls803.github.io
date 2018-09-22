@@ -8,7 +8,7 @@
 
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
-            {% comment %} The navigation items are set up in _data/navigation.yml {% endcomment %}
+            {% comment %} The navigation items are set up in _data/navigation.yml  {% endcomment %}
             {% for item in site.data.navigation.menuitems %}
 			  <li class="{% if item.url == page.url %}active{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 			{% endfor %} 
