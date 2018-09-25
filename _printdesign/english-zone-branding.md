@@ -2,8 +2,8 @@
 layout: project
 title: EnglishZone - Logo and Branding
 subtitle: Branding project
-image: printdesign/EZ-logo-sign-800x600.jpg.jpg
-image_banner: printdesign/EZ-logo-sign.jpg.jpg
+image: printdesign/EZ-logo-sign-800x600.jpg
+image_banner: printdesign/EZ-logo-sign.jpg
 external_url:
 role: Graphic Design
 tech: Illustrator
