@@ -2,7 +2,7 @@
 layout: project
 title: Asia Partners - Branding and Logo
 subtitle: Non-profit Organization Branding
-image: printdesign/whcc-logo-embossed.jpg
+image: printdesign/asia-partners-logo.jpg
 image_banner: printdesign/asia-partners-logo.jpg
 external_url: http://asiapartners.de
 role: Graphic Design
