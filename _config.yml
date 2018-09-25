@@ -109,4 +109,4 @@ collections:
     permalink: /books/:path/
   printdesign:
     output: true
-    permalink: /printdesign/:path/
+    permalink: /design/:path/
