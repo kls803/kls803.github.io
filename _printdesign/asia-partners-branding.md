@@ -8,7 +8,7 @@ external_url: http://asiapartners.de
 role: Graphic Design
 tech: Illustrator, Photoshop
 projectdate:
-description: Logo, branding, website and corporate identity package for a German non-profit organization focused on community development in Southeast Asia.
+description: Logo and branding for a German non-profit organization focused on community development in Southeast Asia.
 published: true
 ---
 
