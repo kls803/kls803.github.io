@@ -18,7 +18,7 @@ email: dev@tallgrass.media
 description: > # this means to ignore newlines until "baseurl:"
   Kelly Smith is a South Carolina based Graphic Designer and Web Developer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kls803.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.tallgrassmedia.com" # the base hostname & protocol for your site, e.g. http://example.com
 author: Kelly Smith
 
 # More SEO stuff
