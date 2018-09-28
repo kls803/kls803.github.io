@@ -4,7 +4,7 @@ title: Buck Hatch Website bookmarks
 subtitle: Print design project
 image: printdesign/hatch-bookmarks-800x600.jpg
 image_banner: printdesign/hatch-bookmarks.jpg
-external_url:
+external_url: http://buckhatchlibrary.com
 role: Graphic Design
 tech: Photoshop, InDesign
 projectdate:
